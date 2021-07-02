@@ -7,6 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(Routes);
-app.listen(3333,()=>{console.log('Server started....')});
+//procuro uma variavel de ambiente chamada port se não tiver uso a 3333
+app.listen(process.env.PORT || 3333);
 
 export default app;

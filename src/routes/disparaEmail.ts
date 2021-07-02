@@ -1,9 +1,7 @@
-
 import express from "express";
 import { RequestBody} from "../Interfaces/requestInterface";
 const Email = require('../models/configEmail');
 const HtmlEmailTemplate = require('../Templates/OrcEmails');
-
 
 const router = express.Router();
 

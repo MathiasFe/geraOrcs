@@ -4,7 +4,8 @@
   "description": "Gerador de Orçamentos",
   "main": "src/server.ts",
   "scripts": {
-    "start": "nodemon --watch src/ --exec ts-node src/server.ts -e ts"
+    "start": "nodemon --watch src/ --exec ts-node src/server.ts -e ts",
+    "inicial": "node src/server.ts"
   },
   "author": "Felipe Mathias",
   "license": "ISC",
